@@ -1,0 +1,179 @@
+/* @media screen and (max-width: 1530px) {
+    .subscribe-bar {width: 280px;}
+} */
+/* 
+@media screen and (max-width: 1345px) {
+    .desktop-navigation ul li a { padding: 15px 9px;}
+
+} */
+@media screen and (max-width: 1529px) {
+    
+    .header-middle-right ul li  a{padding: 21px 30px;}
+    .sign-up-section {width: 52%;}
+    .subscribe-section{width: 46%;}
+    .header-middle-search-bar {margin: 7px 15px;}
+}
+
+@media screen and (max-width: 1500px) {
+
+
+    /* .container { padding: 0 30px; } */
+    /* .header-middle-search-bar .search-bar {width: 230px;} */
+    /* .header-middle-left {width: 50%;} */
+}
+
+@media screen and (max-width: 1388px){
+    .footer-top-inner, .footer-middle-inner, .footer-bottom-inner {padding: 0 15px;}
+}
+
+@media screen and (max-width: 1366px) {
+    .container { padding: 0 15px; }
+
+    .header-middle-right ul li a { padding: 21px 20px 21px 30px; font-size: 13px;}
+
+    .photo-grid-figcaption-inner .product-title h4 {font-size: 16px;}
+    .photo-grid-figcaption-inner {margin-top: 20px;}
+
+    .banner-slider-section h1 { font-size: 30px; line-height: 1.2;}
+    .banner-slider-section h3 { font-size: 25px; }
+    .banner-slider-section .sale { font-size: 35px;}
+    .banner-slider-section .latest-style { font-size: 25px;}
+
+    .photo-grid-inner ul {margin: 0 -15px;}
+    .photo-grid-inner ul li { padding: 0 15px;}
+
+    .LED-light-bulbs { margin-bottom: 60px;}
+
+    .shop-by-category-title {margin-bottom: 40px;}
+
+    .trade-account, .shop-cat-content,  .photo-grid-inner ul li, .home-banner, .gallery-section  {margin-bottom: 60px;}
+    
+    .right-column {margin-left: 15px;}
+    .sign-up-section {width: 60%;}
+    .subscribe-section {width: 40%;}
+
+    .desktop-navigation ul li a {padding: 15px 10px; font-size: 13px;}
+
+
+
+    
+}
+@media screen and (max-width: 1250px) {
+    .header-top{padding: 15px 0;}
+
+    .header-middle-left {width: 60%; float: left;}
+    .header-middle-search-bar .search-bar {width: 300px;}
+    .header-middle-right {width: 40%; float: left;}
+    .header-middle-right ul li a { padding: 21px 15px 21px 30px;}
+
+    .desktop-navigation ul { margin: 15px 0;}
+    .desktop-navigation ul li a {padding: 15px 5px; font-size: 12px;}
+
+    .photo-grid-figcaption-inner .product-title h4 {font-size: 20px;}
+    .shop-now a {font-size: 18px;}
+
+    .sign-up-section {width: 100%; margin-bottom: 25px;}
+    .subscribe-section{width: 100%;}
+
+}
+@media screen and (max-width: 1023px) {
+    .header-top-right{width: 60%;}
+    .header-top-right-desktop{display: none;}
+    .header-top-right marquee {display: block;}
+    
+    .header-middle { padding: 10px 0;}
+    .header-middle-left { width: 59%; float: left; text-align: center;}
+    .header-middle-left .logo {float: right;}
+    .header-middle-search-bar {display: none;}
+    .header-middle-right {width: 31%; float: right;}
+    .hmiddle-left-mobile li {padding: 15px;}
+    .hmiddle-left-mobile .search-mobile a{display: block;}
+    .hmiddle-left-mobile .hamburger-menu a {display: block; padding: 0;}
+    .header-middle-right ul li a {font-size: 0;}
+
+    .header-middle-right .wishlist a{display: none;}
+    .header-middle-right .log-in a{display: none;}
+    .header-middle-right-inner{margin-top: 10px;}
+
+    .desktop-navigation {display: none;}
+    
+    .banner-img{width: 100%;}
+    .banner-description{  width: 100%;}
+    .banner-slider-section{text-align: center;}
+    .banner-slider-section .sale {margin-top: 0;}
+
+    .gallery ul li {width: 33.333%;}
+
+    .photo-grid-figcaption-inner .product-title h4 {font-size: 15px;}
+    .shop-now a {font-size: 11px; padding-top: 3px;}
+    
+    .warehouse-ad-inner .ad-right-part {margin-top: 30px;}
+    .warehouse-ad-inner .ad-right-part img {float: none;}
+
+    .fcolumn1, .fcolumn2  {width: 50%;}
+    .fcolumn3 {width: 51%;}
+    .fcolumn4 {width: 49%;}
+    /* .footer-middle h6{font-size: 25px; margin-bottom: 28px;} */
+    /* .footer-top-link ul li a { font-size: 20px;} */
+    .fbottom-right, .fbottom-left {width: 100%; padding: 20px 0;}
+   
+}
+
+@media screen and (max-width: 767px) { 
+    .photo-grid-inner ul{margin-bottom: 80px;}
+    .photo-grid-inner ul li {width: 100%;}
+    .photo-grid-figcaption-inner .product-title h4 {font-size: 30px;}
+    .photo-grid-three-img-wrap img,.gallery-image-wrap img {width: 100%; max-height: 100%;}
+    .photo-grid-three-col li {width: 100%;} 
+    .shop-now a {font-size: 25px;}
+
+    .gallery ul li {width: 100%;} 
+
+    .warehouse-ad-inner .ad-left-part {width: 100%;}
+    .warehouse-ad-inner .ad-right-part {width: 100%;}
+
+    /* .shop-by-category-title h1, .gallery-section-title h1 a {font-size: 35px;} */
+
+    .sign-up-section {text-align: center;}
+    .left-column{margin-bottom: 20px;}
+    .left-column, .right-column{width: 100%;} 
+    .right-column h4{font-size: 30px;}
+    .right-column p {font-size: 18px;}
+
+    .LED-content-img-wrap{width: 100%;}
+    .LED-content-mobile{width: 100%; display: block; padding: 20px; text-align: center;}
+    .LED-content{display: none}
+    /* .LED-bulbs-content h2 {font-size: 30px} */
+
+    .subscribe-section{text-align: center;}
+    .subscribe-bar{width: 100%;}
+    .subscribe-button {width: 40%; float: none; margin-top: 20px;}
+
+    .payment ul li:first-child {margin-left: 0;}
+
+    .shop-cat-content .owl-nav .owl-next {margin-top: -75px;}
+    .shop-cat-content .owl-nav .owl-prev {right: 50px;; margin-top: -75px;}
+    .shop-cat-content .owl-nav button::before {width: 30px;  height: 30px; line-height: 30px; font-size: 18px;}
+
+    .fcolumn1, .fcolumn2, .fcolumn3, .fcolumn4 {width: 100%;}  
+}
+
+
+@media screen and (max-width: 567px) {
+
+    .header-top-inner {text-align: center;}
+    .header-top-left {width: 100%; margin-bottom: 10px;}
+    .header-top-right{width: 100%;}
+    .header-middle-right ul li a { padding: 21px 15px;}
+
+    .banner-description-mobile h1 {line-height: 1.2;}
+    
+    .photo-grid-inner ul { margin-bottom: 20px; }
+    .photo-grid-figcaption-inner .product-title h4 { font-size: 16px;}
+    .shop-now a {font-size: 15px;}
+
+    .gallery ul li {width: 100%;}
+
+    .payment ul li img{ width: 40px;}
+    .warehouse-ad-inner .ad-right-part {margin-left: 0;}
+}
