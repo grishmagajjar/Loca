@@ -221,6 +221,7 @@
 @media screen and (max-width: 567px) {
 
     .header-top {padding: 5px 0;}
+    .header-middle {padding: 15px 0;}
     .header-middle-right ul li a { padding: 21px 20px;}
 
     .cart-counter {right: 5px;}
