@@ -20,65 +20,63 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/mediaquery.css">
     <link rel="stylesheet" href="css/mmenu.css">
-
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="header-top">
+            <div class="header-top wow fadeIn">
                 <div class="container">
                     <div class="header-top-inner">
                         <div class="header-top-left">
                             <span>Contact Us at <a href="mailto:info@loca.com">info@loca.com</a></span>
                         </div>
                         <div class="header-top-right">
-                            <marquee width="100%" direction="left">
-                                <span class="free-shipping">FREE SHIPPING ON ALL ORDERS $75+</span>
-                                <span class="header-msg">Plus our Price Match Guarantee.</span>
-                                <span><a href="">View Details.</a></span>
-                            </marquee>
-                            <div class="header-top-right-desktop">
-                                <span class="free-shipping">FREE SHIPPING ON ALL ORDERS $75+</span>
-                                <span class="header-msg">Plus our Price Match Guarantee.</span>
-                                <span><a href="">View Details.</a></span>
-                            </div>
+                            <span class="free-shipping">FREE SHIPPING ON ALL ORDERS $75+</span>
+                            <span class="header-msg">Plus our Price Match Guarantee.</span>
+                            <span><a href="">View Details.</a></span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="header-middle">
+            <div class="header-middle wow fadeIn" data-wow-delay=".2s">
                 <div class="container">
                     <div class="header-middle-inner">
                         <div class="header-middle-left">
-                            <ul class="hmiddle-left-mobile">
-                                <li class="hamburger-menu"><a href="#my-menu"></a></li>
-                                <li class="search-mobile"><a href=""></a></li>
-                            </ul>
+                            <div class="hmiddle-left-mobile-wrap">
+                                <ul class="hmiddle-left-mobile">
+                                    <li class="hamburger-menu"><a href="#my-menu"></a></li>
+                                    <li class="search-mobile"><input type="text"></li>
+                                </ul>
+                            </div>
                             <div class="logo">
                                 <a href="index.html"><img src="images/brand-logo1.png" alt="logo" title="logo"></a>
                             </div>
+
+                        </div>
+
+                        <div class="header-middle-right">
                             <div class="header-middle-search-bar">
                                 <form class="example" action="">
                                     <input type="text" placeholder="Search here..." name="search2" class="search-bar">
                                     <input type="submit" value="">
                                 </form>
                             </div>
-                        </div>
-                        <div class="header-middle-right">
-                            <ul class="header-middle-right-inner">
-                                <!-- <li class="search-mobile"><a href=""></a></li> -->
-                                <li class="trade-program"><a href="">trade program</a></li>
-                                <li class="wishlist"><a href="">wishlist</a></li>
-                                <li class="log-in"><a href="">log in</a></li>
-                                <li class="shopping-cart"><a href="javascript:;">0</a></li>
-                                <!-- <li class="hamburger-menu"><a href="#my-menu"><i class="fas fa-bars"></i></a></li> -->
-                            </ul>
+                            <div class="header-middle-right1">
+                                <ul class="header-middle-right-inner">
+                                    <li class="trade-program"><a href="">trade program</a></li>
+                                    <li class="wishlist"><a href="">wishlist</a></li>
+                                    <li class="log-in"><a href="">log in</a></li>
+                                    <li class="shopping-cart"><a href="javascript:;"><span
+                                                class="cart-counter">0</span></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="header-bottom">
+            <div class="header-bottom wow fadeIn" data-wow-delay=".4s">
                 <div class="container">
                     <nav class="desktop-navigation">
                         <ul>
@@ -114,6 +112,7 @@
             </div>
         </header>
 
+
         <section class="home-banner">
             <ul class="banner-slider owl-carousel">
                 <li class="banner-slider-section">
@@ -123,9 +122,9 @@
                         <p class="latest-style">The Latest Styles</p>
                         <a href="">shop now</a>
                     </div> -->
-                    <div class="banner-img"></div>
-                    <div class="banner-description">
-                        <h1>Designer Home Accent</h1>
+                    <div class="banner-img wow fadeIn"></div>
+                    <div class="banner-description wow fadeInRight" data-wow-delay=".2s">
+                        <h2>Designer Home Accent</h2>
                         <h3>Collection</h3>
                         <p class="sale">Up to 30% off</p>
                         <p class="latest-style">The Latest Styles</p>
@@ -138,8 +137,8 @@
         <section class="photo-grid">
             <div class="container">
                 <div class="photo-grid-inner">
-                    <ul class="photo-grid-two-col">
-                        <li>
+                    <ul class="photo-grid-two-col ">
+                        <li class="wow fadeInRight">
                             <article class="photo-grid-article">
                                 <figure class="photo-grid-figure">
                                     <a href="" class="photo-grid-two-img-wrap">
@@ -148,15 +147,14 @@
                                 </figure>
                                 <div class="photo-grid-figcaption-inner">
                                     <div class="product-title">
-                                        <h4>ceiling fans</h4>
+                                        <h4><a href="">ceiling fans</a></h4>
                                     </div>
                                     <div class="shop-now"><a href="">shop now</a></div>
                                 </div>
                             </article>
                         </li>
-                        <li>
-                            <!-- --- hover01 --- -->
-                            <article class="photo-grid-article ">
+                        <li class="wow fadeInRight" data-wow-delay=".2s">
+                            <article class="photo-grid-article">
                                 <figure class="photo-grid-figure">
                                     <a href="" class="photo-grid-two-img-wrap">
                                         <img src="./images/ceiling-lights.jpg" alt="ceiling-lights"
@@ -165,7 +163,7 @@
                                 </figure>
                                 <div class="photo-grid-figcaption-inner">
                                     <div class="product-title">
-                                        <h4>ceiling lights</h4>
+                                        <h4><a href="">ceiling lights</a></h4>
                                     </div>
                                     <div class="shop-now"><a href="">shop now</a></div>
                                 </div>
@@ -180,7 +178,7 @@
             <div class="container">
                 <div class="photo-grid-inner">
                     <ul class="photo-grid-three-col">
-                        <li>
+                        <li class="wow fadeInRight">
                             <article class="photo-grid-article">
                                 <figure class="photo-grid-figure">
                                     <a href="" class="photo-grid-three-img-wrap">
@@ -189,13 +187,13 @@
                                 </figure>
                                 <div class="photo-grid-figcaption-inner">
                                     <div class="product-title">
-                                        <h4>Wall Lights</h4>
+                                        <h4><a href="">Wall Lights</a></h4>
                                     </div>
                                     <div class="shop-now"><a href="">shop now</a></div>
                                 </div>
                             </article>
                         </li>
-                        <li>
+                        <li class="wow fadeInRight" data-wow-delay=".2s">
                             <article class="photo-grid-article">
                                 <figure class="photo-grid-figure">
                                     <a href="" class="photo-grid-three-img-wrap">
@@ -204,14 +202,13 @@
                                 </figure>
                                 <div class="photo-grid-figcaption-inner">
                                     <div class="product-title">
-                                        <h4>Lamps</h4>
+                                        <h4><a href="">Lamps</a></h4>
                                     </div>
                                     <div class="shop-now"><a href="">shop now</a></div>
                                 </div>
                             </article>
                         </li>
-                        <li>
-                            <!-- --- hover01 --- -->
+                        <li class="wow fadeInRight" data-wow-delay=".4s">
                             <article class="photo-grid-article ">
                                 <figure class="photo-grid-figure">
                                     <a href="" class="photo-grid-three-img-wrap">
@@ -221,7 +218,7 @@
                                 </figure>
                                 <div class="photo-grid-figcaption-inner">
                                     <div class="product-title">
-                                        <h4>ceiling lights</h4>
+                                        <h4><a href="">ceiling lights</a></h4>
                                     </div>
                                     <div class="shop-now"><a href="">shop now</a></div>
                                 </div>
@@ -236,13 +233,13 @@
             <div class="container">
                 <div class="LED-light-bulbs-inner">
                     <div class="LED-bulbs-content">
-                        <div class="LED-content-mobile">
+                        <div class="LED-content-mobile wow fadeInRight" data-wow-delay=".2s">
                             <h2>led light bulbs</h2>
                             <a href="">shop now</a>
                         </div>
-                        <div class="LED-content-img-wrap">
+                        <div class="LED-content-img-wrap wow fadeIn" data-wow-delay=".2s">
                         </div>
-                        <div class="LED-content">
+                        <div class="LED-content wow fadeInRight">
                             <h2>led light bulbs</h2>
                             <a href="">shop now</a>
                         </div>
@@ -255,7 +252,7 @@
             <div class="container">
                 <div class="photo-grid-inner">
                     <ul class="photo-grid-two-col">
-                        <li>
+                        <li class="wow fadeInUp">
                             <article class="photo-grid-article">
                                 <figure class="photo-grid-figure">
                                     <a href="" class="photo-grid-two-img-wrap">
@@ -264,14 +261,13 @@
                                 </figure>
                                 <div class="photo-grid-figcaption-inner">
                                     <div class="product-title">
-                                        <h4>home store</h4>
+                                        <h4><a href="">home store</a></h4>
                                     </div>
                                     <div class="shop-now"><a href="">shop now</a></div>
                                 </div>
                             </article>
                         </li>
-                        <li>
-                            <!-- --- hover01 --- -->
+                        <li class="wow fadeInUp" data-wow-delay=".2s">
                             <article class="photo-grid-article ">
                                 <figure class="photo-grid-figure">
                                     <a href="" class="photo-grid-two-img-wrap">
@@ -281,7 +277,7 @@
                                 </figure>
                                 <div class="photo-grid-figcaption-inner">
                                     <div class="product-title">
-                                        <h4>Accessories & Parts</h4>
+                                        <h4><a href="">Accessories & Parts</a></h4>
                                     </div>
                                     <div class="shop-now"><a href="">shop now</a></div>
                                 </div>
@@ -294,12 +290,88 @@
 
         <section class="shop-by-category">
             <div class="container">
-                <div class="shop-by-cateogry-inner">
+                <div class="shop-by-cateogry-inner wow fadeInUp">
                     <div class="shop-by-category-title">
                         <h1>Shop By Category</h1>
                     </div>
-                    <div class="shop-cat-content">
+                    <div class="shop-cat-content wow fadeInDown">
                         <ul class="shop-cat-slider owl-carousel">
+                            <li>
+                                <article class="shop-cat-article">
+                                    <figure class="shop-cat-figure">
+                                        <a href="#" class="shop-cat-img-wrap">
+                                            <img src="images/fan-slider.jpg" alt="ceiling-fan" title="Ceiling Fan">
+                                        </a>
+                                    </figure>
+
+                                    <a href="#" class="shop-cat-figcaption">
+                                        <h4>Ceiling Fans</h4>
+                                    </a>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="shop-cat-article">
+                                    <figure class="shop-cat-figure">
+                                        <a href="#" class="shop-cat-img-wrap">
+                                            <img src="images/lights-slider.jpg" alt="ceiling-lights"
+                                                title="Ceiling Lights">
+                                        </a>
+                                    </figure>
+                                    <a href="#" class="shop-cat-figcaption">
+                                        <h4>Ceiling Lights</h4>
+                                    </a>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="shop-cat-article">
+                                    <figure class="shop-cat-figure">
+                                        <a href="#" class="shop-cat-img-wrap">
+                                            <img src="images/wall-lights-slider.jpg" alt="wall-lights"
+                                                title="Wall Lights">
+                                        </a>
+                                    </figure>
+                                    <a href="#" class="shop-cat-figcaption">
+                                        <h4>Wall Lights</h4>
+                                    </a>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="shop-cat-article">
+                                    <figure class="shop-cat-figure">
+                                        <a href="#" class="shop-cat-img-wrap">
+                                            <img src="images/lamps-slider.jpg" alt="lamps" title="Lamps">
+                                        </a>
+                                    </figure>
+                                    <a href="#" class="shop-cat-figcaption">
+                                        <h4>Lamps</h4>
+                                    </a>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="shop-cat-article">
+                                    <figure class="shop-cat-figure">
+                                        <a href="#" class="shop-cat-img-wrap">
+                                            <img src="images/outdoor-lights-slider.jpg" alt="outdoor-lights"
+                                                title="Outdoor Lights">
+                                        </a>
+                                    </figure>
+                                    <a href="#" class="shop-cat-figcaption">
+                                        <h4>Outdoor Lights</h4>
+                                    </a>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="shop-cat-article">
+                                    <figure class="shop-cat-figure">
+                                        <a href="#" class="shop-cat-img-wrap">
+                                            <img src="images/home-store-slider.jpg" alt="home-store" title="Home Store">
+                                        </a>
+                                    </figure>
+                                    <a href="#" class="shop-cat-figcaption">
+                                        <h4>Home Store</h4>
+                                    </a>
+                                </article>
+                            </li>
                             <li>
                                 <article class="shop-cat-article">
                                     <figure class="shop-cat-figure">
@@ -315,82 +387,7 @@
                             <li>
                                 <article class="shop-cat-article">
                                     <figure class="shop-cat-figure">
-                                        <a href="#"  class="shop-cat-img-wrap">
-                                            <img src="images/lights-slider.jpg" alt="ceiling-lights"
-                                                title="Ceiling Lights">
-                                        </a>
-                                    </figure>
-                                    <a href="#" class="shop-cat-figcaption">
-                                        <h4>Ceiling Lights</h4>
-                                    </a>
-                                </article>
-                            </li>
-                            <li>
-                                <article class="shop-cat-article">
-                                    <figure class="shop-cat-figure">
-                                        <a href="#"  class="shop-cat-img-wrap">
-                                            <img src="images/wall-lights-slider.jpg" alt="wall-lights"
-                                                title="Wall Lights">
-                                        </a>
-                                    </figure>
-                                    <a href="#" class="shop-cat-figcaption">
-                                        <h4>Wall Lights</h4>
-                                    </a>
-                                </article>
-                            </li>
-                            <li>
-                                <article class="shop-cat-article">
-                                    <figure class="shop-cat-figure">
-                                        <a href="#"  class="shop-cat-img-wrap">
-                                            <img src="images/lamps-slider.jpg" alt="lamps" title="Lamps">
-                                        </a>
-                                    </figure>
-                                    <a href="#" class="shop-cat-figcaption">
-                                        <h4>Lamps</h4>
-                                    </a>
-                                </article>
-                            </li>
-                            <li>
-                                <article class="shop-cat-article">
-                                    <figure class="shop-cat-figure">
-                                        <a href="#"  class="shop-cat-img-wrap">
-                                            <img src="images/outdoor-lights-slider.jpg" alt="outdoor-lights"
-                                                title="Outdoor Lights">
-                                        </a>
-                                    </figure>
-                                    <a href="#" class="shop-cat-figcaption">
-                                        <h4>Outdoor Lights</h4>
-                                    </a>
-                                </article>
-                            </li>
-                            <li>
-                                <article class="shop-cat-article">
-                                    <figure class="shop-cat-figure">
-                                        <a href="#"  class="shop-cat-img-wrap">
-                                            <img src="images/home-store-slider.jpg" alt="home-store" title="Home Store">
-                                        </a>
-                                    </figure>
-                                    <a href="#" class="shop-cat-figcaption">
-                                        <h4>Home Store</h4>
-                                    </a>
-                                </article>
-                            </li>
-                            <li>
-                                <article class="shop-cat-article">
-                                    <figure class="shop-cat-figure">
-                                        <a href="#"  class="shop-cat-img-wrap">
-                                            <img src="images/fan-slider.jpg" alt="ceiling-fan" title="Ceiling Fan">
-                                        </a>
-                                    </figure>
-                                    <a href="#" class="shop-cat-figcaption">
-                                        <h4>Ceiling Fans</h4>
-                                    </a>
-                                </article>
-                            </li>
-                            <li>
-                                <article class="shop-cat-article">
-                                    <figure class="shop-cat-figure">
-                                        <a href="#"  class="shop-cat-img-wrap">
+                                        <a href="#" class="shop-cat-img-wrap">
                                             <img src="images/lights-slider.jpg" alt="ceiling-lights"
                                                 title="Ceiling Lights">
                                         </a>
@@ -408,8 +405,8 @@
 
         <section class="trade-account">
             <div class="container">
-                <div class="trade-account-inner">
-                    <div class="trade-account-content">
+                <div class="trade-account-inner wow fadeIn">
+                    <div class="trade-account-content ">
                         <h1>get trade account</h1>
                         <h3>Enjoy Special Discount</h3>
                         <div><a href="">get trade account</a></div>
@@ -420,51 +417,48 @@
 
         <section class="gallery-section">
             <div class="container">
-                <div class="gallery-section-inner">
+                <div class="gallery-section-inner  wow fadeInUp">
                     <div class="gallery-section-title">
                         <h1><a href="">View our Gallery</a></h1>
                     </div>
                     <div class="gallery">
                         <ul>
-                            <li>
+                            <li class="wow fadeInDown">
                                 <figure class="gallery-image">
                                     <a href="" class="gallery-image-wrap">
                                         <img src="images/gallery1.jpg" title="gallery" alt="gallery">
                                     </a>
                                 </figure>
                             </li>
-                            <li>
+                            <li class="wow fadeInDown">
                                 <figure class="gallery-image">
                                     <a href="" class="gallery-image-wrap">
                                         <img src="images/gallery2.jpg" title="gallery" alt="gallery">
                                     </a>
                                 </figure>
                             </li>
-                            <li>
+                            <li class="wow fadeInDown">
                                 <figure class="gallery-image">
                                     <a href="" class="gallery-image-wrap">
                                         <img src="images/gallery3.jpg" title="gallery" alt="gallery">
                                     </a>
                                 </figure>
                             </li>
-                            <li>
+                            <li class="wow fadeInDown">
                                 <figure class="gallery-image">
                                     <a href="" class="gallery-image-wrap">
                                         <img src="images/gallery4.jpg" title="gallery" alt="gallery">
                                     </a>
                                 </figure>
                             </li>
-                            <li>
+                            <li class="wow fadeInDown">
                                 <figure class="gallery-image">
                                     <a href="" class="gallery-image-wrap">
                                         <img src="images/gallery5.jpg" title="gallery" alt="gallery">
                                     </a>
                                 </figure>
                             </li>
-
-
                         </ul>
-
                     </div>
                 </div>
             </div>
@@ -472,20 +466,23 @@
 
         <section class="warehouse-ad">
             <div class="container">
-                <div class="warehouse-ad-inner">
-                    <!-- <div class="warehouse-ad-wrap"> -->
+                <div class="warehouse-ad-inner wow fadeIn">
                     <div class="ad-left-part">
-                        <img src="images/ad-left-part.png">
+                        <a href="">
+                            <img src="images/ad-left-part.png">
+                        </a>
                     </div>
                     <div class="ad-right-part">
-                        <img src="images/ad-right-part.png">
+                        <a href="">
+                            <img src="images/ad-right-part.png">
+                        </a>
                     </div>
-                    <!-- </div> -->
                 </div>
+            </div>
         </section>
 
         <footer class="footer">
-            <div class="footer-top">
+            <div class="footer-top wow fadeIn">
                 <div class="container">
                     <div class="footer-top-inner">
                         <div class="sign-up-section">
@@ -500,7 +497,7 @@
                         </div>
                         <div class="subscribe-section">
                             <input type="text" class="subscribe-bar" placeholder="Enter your email address">
-                            <input type="button" class="subscribe-button" value="subscribe">
+                            <input type="submit" class="subscribe-button" value="subscribe">
                         </div>
                     </div>
                 </div>
@@ -508,7 +505,7 @@
             <div class="footer-middle">
                 <div class="container">
                     <div class="footer-middle-inner">
-                        <div class="fcolumn1 footer-top-link">
+                        <div class="fcolumn1 footer-top-link wow fadeInRight">
                             <h6>shop by products</h6>
                             <ul>
                                 <li><a href="">Ceiling Fans</a></li>
@@ -522,7 +519,7 @@
                                 <li><a href="">Warehouse Sale</a></li>
                             </ul>
                         </div>
-                        <div class="fcolumn2 footer-top-link">
+                        <div class="fcolumn2 footer-top-link wow fadeInRight" data-wow-delay=".2s">
                             <h6>Shop By Popular Brands</h6>
                             <ul>
                                 <li><a href="">Classic Lighting</a></li>
@@ -533,7 +530,7 @@
                                 <li><a href="">View All Brands</a></li>
                             </ul>
                         </div>
-                        <div class="fcolumn3 footer-top-link">
+                        <div class="fcolumn3 footer-top-link wow fadeInRight" data-wow-delay=".4s">
                             <h6>Quick Links</h6>
                             <ul>
                                 <li><a href="">My Account</a></li>
@@ -545,8 +542,8 @@
                                 <li><a href="">Contact</a></li>
                             </ul>
                         </div>
-                        <div class="fcolumn4 ">
-                            <div class="fcolumn-top">
+                        <div class="fcolumn4 wow fadeInRight" data-wow-delay=".6s">
+                            <div class="fcolumn-top ">
                                 <h6>connect with</h6>
                                 <ul>
                                     <li class="fcolumn-top1 icon1"><a href=""></a></li>
@@ -569,13 +566,14 @@
             </div>
             <div class="footer-bottom">
                 <div class="container">
-                    <div class="footer-bottom-inner">
-                       
+                    <div class="footer-bottom-inner wow fadeInLeft">
+
                         <div class="fbottom-middle">
-                            
+
                             <div class="fbottom-img-wrap">
                                 <img src="images/paypal.png" alt="paypal-verified" title="PayPal Verified">
-                                <img src="images/verified-merchant.png" alt="verified-merchant" title="Verified Merchant">
+                                <img src="images/verified-merchant.png" alt="verified-merchant"
+                                    title="Verified Merchant">
                             </div>
                             <div class="payment">
                                 <ul>
@@ -588,7 +586,7 @@
                             </div>
                         </div>
                         <div class="fbottom-right">
-                            <p>Website designed by <a href="">Bliss Web Solution Pvt. Ltd.</a></p>
+                            <p>Website designed by <a href="" target="_blank">Bliss Web Solution Pvt. Ltd.</a></p>
                         </div>
                         <div class="fbottom-left">
                             <p>&copy; 2021 loca.</p>
@@ -601,6 +599,7 @@
 
 
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/mmenu.js"></script>
     <script src="js/custom.js"></script>
