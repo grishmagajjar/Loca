@@ -261,7 +261,7 @@ a{color: #000; outline: none;}
 
 .hmiddle-left-mobile{width: auto; float: left;}
 .hmiddle-left-mobile{width: auto; float: left; list-style: none;}
-.hmiddle-left-mobile  li {width: auto; float: left;}
+.hmiddle-left-mobile  div {width: auto; float: left;}
 .hmiddle-left-mobile-wrap {width: auto; float: left;}
 
 

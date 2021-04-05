@@ -106,7 +106,7 @@
     .header-middle-left .logo {float: right;}
     .header-middle-search-bar {display: none;}
     .header-middle-right {width: 31%; float: right;}
-    .hmiddle-left-mobile li {padding: 20px 15px;}
+    .hmiddle-left-mobile div {padding: 20px 15px;}
     .hmiddle-left-mobile  input[type=text] {display: block;}
     .hmiddle-left-mobile .hamburger-menu a {display: block; padding: 0;}
     .mm-wrapper_opened #my-menu{display: block !important;}
@@ -246,8 +246,8 @@
     .payment ul li img{ width: 40px;}
     .warehouse-ad-inner .ad-right-part {margin-left: 0;}
 
-    .hmiddle-left-mobile li:first-child{padding-left: 0;}
-    .hmiddle-left-mobile li{padding: 20px 10px;}
+    .hmiddle-left-mobile .hamburger-menu{padding-left: 0;}
+    .hmiddle-left-mobile div{padding: 20px 10px;}
     .header-middle-left { width: 62%;}
     .header-middle-left .logo img {width: 90px;}
 
