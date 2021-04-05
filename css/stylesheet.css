@@ -381,8 +381,8 @@ form.example input[type=submit]:hover {background-image: url('../images/search-h
 .shop-by-cateogry-inner {width: 100%; float: left;}
 .shop-by-cateogry-inner ul {width: 100%; float: left; list-style: none; text-align: center;}
 .shop-by-category-title {width: auto; float: left; margin-bottom: 73px;}
-.shop-by-category-title h1 {font-size: 28px;font-family: 'Poppins', sans-serif; font-weight: 600; position: relative;}
-.shop-by-category-title h1::after { position: absolute; content: ' '; width: 47px; height: 1px; top: 60%; /* transform: translateY(5%); *//* left: 0; */ right: -70px; /* color: #000; */ background-color: #000;}
+.shop-by-category-title h3 {font-size: 28px;font-family: 'Poppins', sans-serif; font-weight: 600; position: relative;}
+.shop-by-category-title h3::after { position: absolute; content: ' '; width: 47px; height: 1px; top: 60%; /* transform: translateY(5%); *//* left: 0; */ right: -70px; /* color: #000; */ background-color: #000;}
 
 .shop-cat-content {width: 100%; float: left; margin-bottom: 124px;}
 .shop-cat-content ul li{ width: 100%; float: left;  margin: 10px 0;}
@@ -416,7 +416,7 @@ form.example input[type=submit]:hover {background-image: url('../images/search-h
 .trade-account {width: 100%; float: left; background-color: #594745; height: 285px; margin-bottom: 112px;}
 .trade-account-inner {margin: 65px 0; width: 100%; float: left}
 .trade-account-content{width: 100%; float: none; text-align: center;}
-.trade-account-content h1{font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 500; color: #fff; margin-bottom: 10px; text-transform: uppercase;}
+.trade-account-content h2{font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 500; color: #fff; margin-bottom: 10px; text-transform: uppercase;}
 .trade-account-content h3{font-family: 'Crimson Text', serif; font-size: 32px; font-weight: 400; color: #f6c865; font-style: italic; position: relative; display: inline-block; vertical-align: top;  margin-bottom: 30px;}
 .trade-account-content h3::before {position: absolute; content: ' '; width: 90px; height: 1px; background-color: #fff; top: 40%; transform: translateY(-40%); left: -40%;}
 .trade-account-content h3::after {position: absolute; content: ' '; width: 90px; height: 1px; background-color: #fff; top: 40%; transform: translateY(-40%); right: -40%;}
@@ -426,11 +426,11 @@ form.example input[type=submit]:hover {background-image: url('../images/search-h
 .gallery-section{width: 100%; float: left; margin-bottom: 100px;}
 .gallery-section-inner{width: 100%; float: left;}
 .gallery-section-title{width: auto; float: left; margin-bottom: 30px;}
-.gallery-section-title h1 { font-family: 'Poppins', sans-serif; font-weight: 600; position: relative;}
-.gallery-section-title h1 a{ font-size: 28px; text-decoration: none; color: #000;}
-.gallery-section-title h1 a:hover {color: #9c7c1d ;}
-.gallery-section-title h1::after { position: absolute; content: ' '; width: 47px; height: 1px; top: 60%; /* transform: translateY(5%); *//* left: 0; */ right: -70px; /* color: #000; */ background-color: #000;}
-.gallery-section-title h1:hover::after  {background-color: #9c7c1d; right: -80px; transition: all .4s ease-in;}
+.gallery-section-title h3 { font-family: 'Poppins', sans-serif; font-weight: 600; position: relative;}
+.gallery-section-title h3 a{ font-size: 28px; text-decoration: none; color: #000;}
+.gallery-section-title h3 a:hover {color: #9c7c1d ;}
+.gallery-section-title h3::after { position: absolute; content: ' '; width: 47px; height: 1px; top: 60%; /* transform: translateY(5%); *//* left: 0; */ right: -70px; /* color: #000; */ background-color: #000;}
+.gallery-section-title h3:hover::after  {background-color: #9c7c1d; right: -80px; transition: all .4s ease-in;}
 
 .gallery{width: 100%; float: left;}
 .gallery ul {width: auto; display: flex; flex-wrap: wrap; list-style: none; font-size: 0; margin: 0 -15px;}

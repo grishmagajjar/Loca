@@ -254,7 +254,7 @@
     .shop-cat-content, .suggested-items-slider .owl-nav .owl-prev{  top: 60%; left: 0; }
     .shop-cat-content, .suggested-items-slider .owl-nav .owl-next{ top: 60%; right: 0; }
 
-    .shop-by-category-title h1::after {right: -60px;}
+    .shop-by-category-title h3::after {right: -60px;}
 
     .trade-account-content h3 {font-size: 28px;}
 
