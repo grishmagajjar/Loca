@@ -43,7 +43,7 @@ document.addEventListener(
         new Mmenu("#my-menu", {
             "extensions": [
                 "pagedim-black",
-                "position-right"
+                "position-left"
             ],
             "navbars": [
                 {

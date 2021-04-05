@@ -93,6 +93,14 @@
     .suggested-items-title h2, .recently-viewed-title h2 {font-size: 22px;}
 }
 @media screen and (max-width: 1023px) {
+
+    body.mm-wrapper_opening .hamburger-menu i.fa-times {
+        display: block !important;
+        font-size: 20px;
+    }
+    body.mm-wrapper_opening .hamburger-menu a {
+        display: none !important;
+    }
     .header-top {padding: 8px 0;}
     .header-top-left {width: 100%; text-align: center; margin-bottom: 10px;}
     .header-top-right{width: 100%; text-align: center;}
