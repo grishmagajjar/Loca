@@ -122,15 +122,50 @@ $('.prdct-imgs-slider').owlCarousel({
             items: 2
         },
         568: {
-            items: 3
-        },
-        1024: {
-            items: 5
+            items: 4
         }
     }
 })
 // ---- animation activation ------
 new WOW().init();
+
+// --- search overlay ---
+
+$("#so-search").click(function(){
+    $(".search-overlay").toggle();
+});
+$(".so-close-button").click(function(){
+    $(".search-overlay").toggle();
+});
+$(".wrapper").click(function(e) {
+    e.stopPropagation(); 
+});
+
+// ---- suggested items slider ----
+$('.suggested-items-slider').owlCarousel({
+    loop: false,
+    // margin: 10,
+    nav: true,
+    dots: false,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        567: {
+            items: 2
+        },
+        821: {
+            items: 3
+        },
+        1075: {
+            items: 4
+        },
+        1250: {
+            items: 5
+        }
+    }
+})
 
 
 // ---- prdct detail tab -----
@@ -173,28 +208,4 @@ else if (window.innerWidth < 768) {
     }
 }
 
-// ---- suggested items slider ----
-$('.suggested-items-slider').owlCarousel({
-    loop: false,
-    // margin: 10,
-    nav: true,
-    dots: false,
-    responsiveClass: true,
-    responsive: {
-        0: {
-            items: 1
-        },
-        567: {
-            items: 2
-        },
-        768: {
-            items: 3
-        },
-        1024: {
-            items: 4
-        },
-        1250: {
-            items: 5
-        }
-    }
-})
+

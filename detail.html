@@ -47,7 +47,7 @@
                         <div class="header-middle-left">
                             <ul class="hmiddle-left-mobile">
                                 <li class="hamburger-menu"><a href="#my-menu"></a></li>
-                                <li class="search-mobile"><input type="text"></li>
+                                <li class="search-mobile"><a href="javascript:;" id="so-search"></a></li>
                             </ul>
                             <div class="logo">
                                 <a href="index.html"><img src="images/brand-logo1.png" alt="logo" title="logo"></a>
@@ -69,6 +69,12 @@
                                 </ul>
                             </div>
                         </div>
+                        <div class="search-overlay">
+                            <button class="so-close-button"><i class="fas fa-times"></i></button>
+                            <div class="so-content">
+                                <input type="text" placeholder="Search here...">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -88,7 +94,7 @@
                             <li class="shop-by-brand"><a href="">shop by brand</a></li>
                         </ul>
                     </nav>
-                    <nav id="my-menu">
+                    <nav id="my-menu" style="display: none;">
                         <ul>
                             <li><a href="">Ceiling Fans</a></li>
                             <li><a href="">Ceiling Lights</a></li>
@@ -172,8 +178,8 @@
                     <div class="prct-detail-right-part wow fadeIn" data-wow-delay=".4S">
                         <div class="prdct-detail-top-part">
                             <h5><a href="">WESTINGHOUSE</a></h5>
-                            <h4>Westinghoue 7217800 Halley 44-Inch Oil Rubbed Bronze Indoor/Outdoor Ceiling Fan,
-                                Dimmable LED Light Kit with Frosted Opal Glass, Remote Control Included</h4>
+                            <h1>Westinghoue 7217800 Halley 44-Inch Oil Rubbed Bronze Indoor/Outdoor Ceiling Fan,
+                                Dimmable LED Light Kit with Frosted Opal Glass, Remote Control Included</h1>
                             <div>
                                 <strong>SKU:</strong>
                                 <strong>7217800</strong>
@@ -183,13 +189,20 @@
                             <div class="prdct-pricing">
                                 <span class="orignl-price"><strike>$655.50</strike></span>
                                 <span class="discounted-price">$365.48</span>
-                                <span>(</span><span class="you-save-price">you save $149.83</span><span>)</span>
+                                <!-- <span>(</span>
+                                <span class="you-save-price">you save $149.83</span>
+                                <span>)</span> -->
+                                <div>
+                                    <span>(</span>
+                                    <span class="you-save-price">you save $149.83</span>
+                                    <span>)</span>
+                                </div>
                             </div>
-                            <div class="prdct-weight">
+                            <div class="label-value">
                                 <span>Weight: </span>
                                 <strong>15.87LBS</strong>
                             </div>
-                            <div class="in-stock">
+                            <div class="label-value">
                                 <span>Current Stock:</span>
                                 <strong>12</strong>
                             </div>
@@ -277,22 +290,25 @@
                             <li>Lifetime warranty on motor</li>
                             <li>Two-year warranty on all other parts</li>
                         </ul>
-                        <div class="prdct-margin"><strong>Brand:</strong>
+                        <div class="prdct-margin label-value">
+                            <strong>Brand:</strong>
                             <span>Westinghouse</span>
                         </div>
-                        <div><strong>SKU:</strong>
+                        <div class="label-value">
+                            <strong>SKU:</strong>
                             <span>7217800</span>
                         </div>
-                        <div><strong>UPC:</strong>
+                        <div class="label-value">
+                            <strong>UPC:</strong>
                             <span>024034721786</span>
                         </div>
-                        <div class="prdct-margin"><strong>Weight:</strong>
+                        <div class="prdct-margin label-value"><strong>Weight:</strong>
                             <span>15.87 LBS</span>
                         </div>
-                        <div><strong>Width:</strong>
+                        <div class="label-value"><strong>Width:</strong>
                             <span>44.00 IN</span>
                         </div>
-                        <div><strong>Height:</strong>
+                        <div class="label-value"><strong>Height:</strong>
                             <span>13.80 IN</span>
                         </div>
                     </div>
@@ -324,11 +340,12 @@
                                     </figcaption>
                                 </figure>
                                 <div class="product-grid-content">
-                                    <a href="">
-                                        <h4>Westinghouse 7204600 Transitional Zephyr 56 inch Brushed Nickel Indoor
+                                    <h4>
+                                        <a href="">estinghouse 7204600 Transitional Zephyr 56 inch Brushed Nickel Indoor
                                             Ceiling
-                                            Fan, Dimmable Led Light Kit...</h4>
-                                    </a>
+                                            Fan, Dimmable Led Light Kit...
+                                        </a>
+                                    </h4>
                                     <div class="prodgrid-pricing">
                                         <div class="orignl-price"><strike>$359.20</strike></div>
                                         <div class="discounted-price">$182.04</div>
@@ -347,11 +364,13 @@
                                     </figcaption>
                                 </figure>
                                 <div class="product-grid-content">
-                                    <a href="">
-                                        <h4>Westinghouse 7204000 Bolton 52-Inch Five-Blade Indoor Ceiling Fan with
+                                    <h4>
+                                        <a href="">Westinghouse 7204000 Bolton 52-Inch Five-Blade Indoor Ceiling Fan
+                                            with
                                             Brushed
-                                            Aluminum Finish, Two-Light...</h4>
-                                    </a>
+                                            Aluminum Finish, Two-Light...
+                                        </a>
+                                    </h4>
                                     <div class="prodgrid-pricing">
                                         <div class="orignl-price"><strike>$314.00</strike></div>
                                         <div class="discounted-price">$182.25</div>
@@ -370,10 +389,11 @@
                                     </figcaption>
                                 </figure>
                                 <div class="product-grid-content">
-                                    <a href="">
-                                        <h4>Westinghouse 7204200 Contemporary Techno II 72 inch Black Indoor Dc Motor
-                                            Ceiling Fan, Dimmable Led...</h4>
-                                    </a>
+                                    <h4>
+                                        <a href="">Westinghouse 7204200 Contemporary Techno II 72 inch Black Indoor Dc
+                                            Motor
+                                            Ceiling Fan, Dimmable Led...</a>
+                                    </h4>
                                     <div class="prodgrid-pricing">
                                         <div class="orignl-price"><strike>$655.50</strike></div>
                                         <div class="discounted-price">$365.48</div>
@@ -392,11 +412,12 @@
                                     </figcaption>
                                 </figure>
                                 <div class="product-grid-content">
-                                    <a href="">
-                                        <h4>Westinghouse 7204600 Transitional Zephyr 56 inch Brushed Nickel Indoor
+                                    <h4>
+                                        <a href="">Westinghouse 7204600 Transitional Zephyr 56 inch Brushed Nickel
+                                            Indoor
                                             Ceiling
-                                            Fan, Dimmable Led Light Kit...</h4>
-                                    </a>
+                                            Fan, Dimmable Led Light Kit...</a>
+                                    </h4>
                                     <div class="prodgrid-pricing">
                                         <div class="orignl-price"><strike>$359.20</strike></div>
                                         <div class="discounted-price">$182.04</div>
@@ -415,11 +436,12 @@
                                     </figcaption>
                                 </figure>
                                 <div class="product-grid-content">
-                                    <a href="">
-                                        <h4>Westinghouse 7205100 Contemporary Alloy II 52 inch Brushed Nickel Indoor
+                                    <h4>
+                                        <a href="">Westinghouse 7205100 Contemporary Alloy II 52 inch Brushed Nickel
+                                            Indoor
                                             Ceiling
-                                            Fan, Led Light Kit with Opal...</h4>
-                                    </a>
+                                            Fan, Led Light Kit with Opal...</a>
+                                    </h4>
                                     <div class="prodgrid-pricing">
                                         <div class="orignl-price"><strike>$252.00</strike></div>
                                         <div class="discounted-price">$118.50</div>
@@ -441,7 +463,7 @@
                         <li class="wow fadeInDown">
                             <article class="product-grid-article">
                                 <figure class="product-grid-figure">
-                                    <a href=""> class="prodgrid-img-wrap">
+                                    <a href="" class="prodgrid-img-wrap">
                                         <img src="images/si1.jpg" alt="ceiling-fan" title="Ceiling Fan">
                                     </a>
                                     <figcaption class="prodgrid-figcaption">
@@ -449,11 +471,12 @@
                                     </figcaption>
                                 </figure>
                                 <div class="product-grid-content">
-                                    <a href="">
-                                        <h4>Westinghouse 7204600 Transitional Zephyr 56 inch Brushed Nickel Indoor
+                                    <h4>
+                                        <a href="">Westinghouse 7204600 Transitional Zephyr 56 inch Brushed Nickel
+                                            Indoor
                                             Ceiling
-                                            Fan, Dimmable Led Light Kit...</h4>
-                                    </a>
+                                            Fan, Dimmable Led Light Kit...</a>
+                                    </h4>
                                     <div class="prodgrid-pricing">
                                         <div class="orignl-price"><strike>$359.20</strike></div>
                                         <div class="discounted-price">$182.04</div>
@@ -472,11 +495,13 @@
                                     </figcaption>
                                 </figure>
                                 <div class="product-grid-content">
-                                    <a href="">
-                                        <h4>Westinghouse 7204000 Bolton 52-Inch Five-Blade Indoor Ceiling Fan with
+                                    <h4>
+                                        <a href="">Westinghouse 7204000 Bolton 52-Inch Five-Blade Indoor Ceiling Fan
+                                            with
                                             Brushed
-                                            Aluminum Finish, Two-Light...</h4>
-                                    </a>
+                                            Aluminum Finish, Two-Light...</a>
+                                    </h4>
+
                                     <div class="prodgrid-pricing">
                                         <div class="orignl-price"><strike>$314.00</strike></div>
                                         <div class="discounted-price">$182.25</div>
@@ -495,10 +520,11 @@
                                     </figcaption>
                                 </figure>
                                 <div class="product-grid-content">
-                                    <a href="">
-                                        <h4>Westinghouse 7204200 Contemporary Techno II 72 inch Black Indoor Dc Motor
-                                            Ceiling Fan, Dimmable Led...</h4>
-                                    </a>
+                                    <h4>
+                                        <a href="">Westinghouse 7204200 Contemporary Techno II 72 inch Black Indoor Dc
+                                            Motor
+                                            Ceiling Fan, Dimmable Led...</a>
+                                    </h4>
                                     <div class="prodgrid-pricing">
                                         <div class="orignl-price"><strike>$655.50</strike></div>
                                         <div class="discounted-price">$365.48</div>
@@ -517,11 +543,12 @@
                                     </figcaption>
                                 </figure>
                                 <div class="product-grid-content">
-                                    <a href="">
-                                        <h4>Westinghouse 7204600 Transitional Zephyr 56 inch Brushed Nickel Indoor
+                                    <h4>
+                                        <a href="">Westinghouse 7204600 Transitional Zephyr 56 inch Brushed Nickel
+                                            Indoor
                                             Ceiling
-                                            Fan, Dimmable Led Light Kit...</h4>
-                                    </a>
+                                            Fan, Dimmable Led Light Kit...</a>
+                                    </h4>
                                     <div class="prodgrid-pricing">
                                         <div class="orignl-price"><strike>$359.20</strike></div>
                                         <div class="discounted-price">$182.04</div>
@@ -540,11 +567,11 @@
                                     </figcaption>
                                 </figure>
                                 <div class="product-grid-content">
-                                    <a href="">
-                                        <h4>Westinghouse 7205100 Contemporary Alloy II 52 inch Brushed Nickel Indoor
+                                    <h4><a href="">Westinghouse 7205100 Contemporary Alloy II 52 inch Brushed Nickel
+                                            Indoor
                                             Ceiling
-                                            Fan, Led Light Kit with Opal...</h4>
-                                    </a>
+                                            Fan, Led Light Kit with Opal...</a>
+                                    </h4>
                                     <div class="prodgrid-pricing">
                                         <div class="orignl-price"><strike>$252.00</strike></div>
                                         <div class="discounted-price">$118.50</div>
@@ -663,7 +690,7 @@
                             </div>
                         </div>
                         <div class="fbottom-right">
-                            <p>Website designed by <a href="">Bliss Web Solution Pvt. Ltd.</a></p>
+                            <p>Website designed by <a href="" target="_blank">Bliss Web Solution Pvt. Ltd.</a></p>
                         </div>
                         <div class="fbottom-left">
                             <p>&copy; 2021 loca.</p>
