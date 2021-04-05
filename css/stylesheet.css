@@ -149,6 +149,26 @@ input:focus {
     
     outline: 0;
 }
+input,
+textarea,
+button,
+select,
+a {
+  /* -webkit-tap-highlight-color: rgba(0,0,0,0); */
+  -webkit-tap-highlight-color: transparent;
+}
+
+    /* *[role=button]:active,
+    button:not([disabled]):active,
+    input:not([disabled]):active,
+    select:not([disabled]):active,
+    textarea:not([disabled]):active,
+    option:active,
+    label:active,
+    xul|menulist:active {
+    background-color: @color_background_highlight_overlay@ !important;
+     background-color: @color_background_highlight_overlay@;
+} */
 select::-ms-expand {
     display: none
 }
