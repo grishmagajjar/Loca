@@ -568,7 +568,7 @@ form.example input[type=submit]:hover {background-image: url('../images/search-h
 
 .listing-banner{width: 100%; float: left; margin-bottom: 50px;}
 .lbanner-section {width: 100%; height: 100%; float: none; background-color: #594745; display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; align-items: center;}
-.lbanner-img {width: 67%; height: 334px; background: url('../images/listing-banner.jpg') no-repeat center;}
+.lbanner-img {width: 67%; height: 334px; background: url('../images/listing-banner.jpg') no-repeat left center;}
 .lbanner-description{width: 33%; padding: 15px 40px;}
 .lbanner-description h2{font-family: 'Josefin Sans', sans-serif; font-size: 48px; font-weight: 700; color: #fff; text-transform: uppercase;}
 .lbanner-description p{color: #fff; padding-right: 40px; letter-spacing: 5px; background: url('../images/arrow-down.png') no-repeat right;font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 15px; margin-top: 30px; display: inline-block;text-transform: uppercase; padding-top: 10px;}
