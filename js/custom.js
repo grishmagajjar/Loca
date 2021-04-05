@@ -137,9 +137,7 @@ $("#so-search").click(function(){
 $(".so-close-button").click(function(){
     $(".search-overlay").toggle();
 });
-$(".wrapper").click(function(e) {
-    e.stopPropagation(); 
-});
+
 
 // ---- suggested items slider ----
 $('.suggested-items-slider').owlCarousel({
