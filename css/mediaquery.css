@@ -9,7 +9,7 @@
     .header-middle-search-bar {margin: 7px 15px;}
 
     /* --- detail page ---  */
-    .add-to-cart input[type=submit] { padding: 14px 30px 13px 50px; background-position: 9%;}
+    .add-to-cart input[type=submit] { padding: 14px 35px 13px 55px; background-position: 9%;}
     .wishlist1 a {padding: 18px 30px 18px 50px; background-position: 15%;}
 }
 
@@ -59,9 +59,10 @@
     .prdct-pricing .orignl-price {font-size: 18px;}
        
     .prdct-weight {margin-bottom: 20px;}
-    /* .add-to-cart a {font-size: 18px; padding: 18px 30px;} */
     .wishlist1 a, .add-to-cart input[type=submit]  {font-size: 18px;}
     .prdct-detail-fes ul li {margin: 0 10px;}
+
+    .add-to-cart { margin-left: 10px;}
 
 }
 @media screen and (max-width: 1250px) {
@@ -83,24 +84,21 @@
     /* ----- detail.html -----  */
 
     .prdct-detail-top-part h1 {font-size: 20px;}
-    /* .add-to-cart a { font-size: 15px;  padding: 18px 15px;}
-    .wishlist1 a {font-size: 15px;}
-    .wishlist1 { margin-left: 10px; padding-left: 18px; }
-    .wishlist1 a {padding: 18px 26px;} */
-    .wishlist1 a{padding: 18px 10px 18px 30px; background-position: 4%;}
+
+    .wishlist1 a {padding: 18px 16px 18px 39px; background-position: 9%;}
     .add-to-cart input[type=submit] { padding: 14px 10px 14px 40px; background-position: 6%; }
+    .add-to-cart, .wishlist1 {margin-left: 10px;}
     .wishlist1 a, .add-to-cart input[type=submit] { font-size: 15px;}
     .suggested-items-title h2, .recently-viewed-title h2 {font-size: 22px;}
+
+    .shop-cat-content, .suggested-items-slider .owl-nav .owl-prev { position: absolute; top: -10%; right: 60px; margin-top: 0;}
+    .shop-cat-content, .suggested-items-slider .owl-nav .owl-next {position: absolute; top: -10%; margin-top: 0;}
 }
 @media screen and (max-width: 1023px) {
 
-    body.mm-wrapper_opening .hamburger-menu i.fa-times {
-        display: block !important;
-        font-size: 20px;
-    }
-    body.mm-wrapper_opening .hamburger-menu a {
-        display: none !important;
-    }
+    body.mm-wrapper_opening .hamburger-menu i.fa-times { display: block !important; font-size: 20px;}
+    body.mm-wrapper_opening .hamburger-menu a { display: none !important;}
+
     .header-top {padding: 8px 0;}
     .header-top-left {width: 100%; text-align: center; margin-bottom: 10px;}
     .header-top-right{width: 100%; text-align: center;}
@@ -135,6 +133,7 @@
     .banner-slider-section .sale {margin-top: 0;}
 
     .gallery ul li {width: 33.333%;}
+    .gallery-image-wrap img {width: 100%;}
 
     .photo-grid-figcaption-inner .product-title h4 a{font-size: 15px;}
     .shop-now a {font-size: 11px; padding-top: 3px;}
@@ -175,7 +174,9 @@
     .wishlist1 a { padding: 18px 30px 18px 50px; background-position: 15%;}
     .add-to-cart input[type=submit] { padding: 14px 10px 14px 40px; background-position: 6%; }
 
-    .shop-cat-content, .suggested-items-slider .owl-nav .owl-prev, .shop-cat-content, .suggested-items-slider .owl-nav .owl-next {top: 20px;}
+    .shop-cat-content{top: 20px;}
+    .prdct-imgs-slider .owl-nav .owl-prev { left: 3%;}
+    .prdct-imgs-slider .owl-nav .owl-next { right: 3%;}
 }
 
 @media screen and (max-width: 767px) { 
@@ -193,7 +194,7 @@
     .sign-up-section {text-align: center;}
     .left-column{margin-bottom: 20px;}
     .left-column, .right-column{width: 100%;} 
-    .right-column h4{font-size: 30px;}
+    .right-column h4{font-size: 30px; line-height: 1.2;}
     .right-column p {font-size: 18px;}
 
     .LED-content-img-wrap{width: 100%;}
@@ -207,7 +208,7 @@
     .payment ul li:first-child {margin-left: 0;}
 
     .shop-cat-content, .suggested-items-slider .owl-nav .owl-next {margin-top: -75px;}
-    .shop-cat-content, .suggested-items-slider .owl-nav .owl-prev {right: 50px;; margin-top: -75px;}
+    .shop-cat-content, .suggested-items-slider .owl-nav .owl-prev {right: 75px;; margin-top: -75px;}
     .shop-cat-content, .suggested-items-slider .owl-nav button::before {width: 30px;  height: 30px; line-height: 30px; font-size: 18px;}
 
     .fcolumn1, .fcolumn2, .fcolumn3, .fcolumn4 {width: 100%;} 
@@ -230,8 +231,8 @@
     .wishlist1 a {padding: 18px 30px 18px 50px; background-position: 15%;}
 
     .shop-cat-content, .suggested-items-slider .owl-nav .owl-prev, .shop-cat-content, .suggested-items-slider .owl-nav .owl-next {top: 31px;}
-
-
+    .prdct-imgs-slider .owl-nav .owl-prev { left: 0;}
+    .prdct-imgs-slider .owl-nav .owl-next { right: 0;}
 }
 
 
