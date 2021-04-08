@@ -351,7 +351,7 @@ form.example input[type=submit]:hover {background-image: url('../images/search-h
 .home-banner {width: 100%; float: left; margin-bottom: 60px;}
 .home-banner ul {width: 100%; float: left; list-style: none;}
 .banner-slider-section{width: 100%; float: none; height: 100%; background-color: #7a6761; display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; text-align: left; align-items: center;}
-.banner-img{ width: 70%; height: 445px; background: url('../images/home-banner1.jpg') no-repeat left center;}
+.banner-img{ width: 70%; height: 445px; background: url('../images/home-banner1.jpg') no-repeat center;}
 .banner-description{ width: 30%; padding: 25px 30px;}
 .banner-slider-section h2{font-family: 'Josefin Sans', sans-serif; font-size: 48px; font-weight: 700; color: #fff; text-transform: uppercase; line-height: 1.2;}
 .banner-slider-section h3{font-family: 'Josefin Sans', sans-serif; font-size: 35px; margin-top: 10px; font-weight: 400; color: #fff; }
