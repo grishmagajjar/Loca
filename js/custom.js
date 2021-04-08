@@ -124,7 +124,7 @@ $('.prdct-imgs-slider').owlCarousel({
         430: {
             items: 3
         },
-        568: {
+        1251: {
             items: 4
         }
     }

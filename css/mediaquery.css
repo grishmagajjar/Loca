@@ -15,6 +15,8 @@
 
 @media screen and (max-width: 1420px) {
     .product-grid ul li {width: 33.333%;}
+    .prdct-imgs-slider .owl-nav .owl-prev {left: -9px;}
+    .prdct-imgs-slider .owl-nav .owl-next {right: -9px;}
 }
 
 @media screen and (max-width: 1388px){
@@ -27,6 +29,9 @@
     .header-middle-right { width: 78%;}
     .header-middle-right ul li a { padding: 21px 20px 21px 30px; font-size: 13px;}
 
+    .prdct-imgs-slider .owl-nav .owl-prev { left: -15px;}
+    .prdct-imgs-slider .owl-nav .owl-next { right: -15px;}
+
     .photo-grid-figcaption-inner .product-title h4 a{font-size: 16px;}
     .photo-grid-figcaption-inner {margin-top: 20px;}
 
@@ -34,6 +39,9 @@
     .banner-slider-section h3 { font-size: 25px; }
     .banner-slider-section .sale { font-size: 35px;}
     .banner-slider-section .latest-style { font-size: 25px;}
+
+    .mega-menu { max-width: 97.6%;}
+ 
 
     .photo-grid-inner ul {margin: 0 -15px;}
     .photo-grid-inner ul li { padding: 0 15px;}
@@ -48,7 +56,7 @@
     .sign-up-section {width: 60%;}
     .subscribe-section {width: 40%;}
 
-    .desktop-navigation ul li a {padding: 15px 10px; font-size: 13px;} 
+    .desktop-navigation > ul > li > a {padding: 15px 10px; font-size: 13px;} 
 
     /* ---- detail.html ---- */
 
@@ -72,8 +80,12 @@
     .header-middle-right {width: 74%;}
     .header-middle-right ul li a { padding: 21px 15px 21px 30px;}
 
-    .desktop-navigation ul { margin: 15px 0;}
-    .desktop-navigation ul li a {padding: 15px 5px; font-size: 12px;}
+  
+
+    .desktop-navigation > ul { margin: 15px 0;}
+    .desktop-navigation > ul > li > a {padding: 15px 5px; font-size: 12px;}
+
+    .mega-menu { max-width: 97.5%; margin-top: 58px;}
 
     .photo-grid-figcaption-inner .product-title h4 a{font-size: 20px;}
     .shop-now a {font-size: 18px;}
@@ -175,8 +187,8 @@
     .add-to-cart input[type=submit] { padding: 14px 10px 14px 40px; background-position: 6%; }
 
     .shop-cat-content{top: 20px;}
-    .prdct-imgs-slider .owl-nav .owl-prev { left: 3%;}
-    .prdct-imgs-slider .owl-nav .owl-next { right: 3%;}
+    .prdct-imgs-slider .owl-nav .owl-prev { left: 33px;}
+    .prdct-imgs-slider .owl-nav .owl-next { right: 33px;}
 }
 
 @media screen and (max-width: 767px) { 
